@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@keyframes fill-left {
+  0% {
+    transform: translateX(100%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.animate-fill-left {
+  animation: fill-left 10s ease-in-out forwards;
+}
